@@ -1,0 +1,12 @@
+<project >
+<property name= "srccode" location ="./src/calcu"/>
+<property name= "classcode" location ="./target"/>
+
+<target name ="compile">
+  <mkdir dir ="${classcode}"/>
+  <javac srcdir="$ {srccode}" destdir="${classcode}" debug="true" includeantruntime ="false">
+    </javac>  
+ </target>
+                                                                                                         
+ </project>
+                   
